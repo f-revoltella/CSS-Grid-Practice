@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CSS Grid Practice</title>
+<style>
+.container {
+display: grid;
+grid-template-columns: repeat(3, 100px);
+grid-template-rows: repeat(2, 100px);
+gap: 10px;
+}
+
+.container div {
+background-color: lightblue;
+text-align: center;
+line-height: 100px;
+font-weight: bold;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+<div>1</div>
+<div>2</div>
+<div>3</div>
+<div>4</div>
+<div>5</div>
+<div>6</div>
+</div>
+
+<!-- Written Answer -->
+
+<section>
+<h2>Coordinate & Grid Reasoning</h2>
+
+<p>
+TikZ coordinates and CSS Gri d tracks are based on the same idea of organizing space using a two dimensional system. In TikZ elements are placed using x and y coordinates on a Cartesian plane. CSS Grid uses columns and rows instead, but they represent the same horizontal and vertical directions.
+</p>
+
+<p>
+In both systems, size and position are controlled separately. TikZ usually uses fixed measurements, which makes layouts very precise and predictable. CSS Grid can also use fixed sizes, but it allows tracks to adjust automatically based on available space or content.
+</p>
+
+<p>
+The main difference between the two is how they handle the layout. TikZ focuses on exact positioning and consistency, which is useful for diagrams and mathematical figures. CSS Grid is designed for responsive layouts, meaning the grid can change depending on screen size. Even though they are used in different contexts, both systems rely on the same grid-based logic to place and organize elements.
+</p>
+</section>
+
+
+</body>
+</html>
